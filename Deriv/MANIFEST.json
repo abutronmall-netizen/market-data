@@ -1,0 +1,44 @@
+{
+  "broker": "Deriv",
+  "format": "gzip CSV split into sequential byte chunks",
+  "files": [
+    {
+      "name": "candles.csv.gz.part-00",
+      "sha256": "0d565907273c395050bb03b1d46042120caa5a90dcaaeba352baed3d832f3956"
+    },
+    {
+      "name": "candles.csv.gz.part-01",
+      "sha256": "56b055967cc9ca9b2e394c816a1af0ec01248d36f745aa242db51bfbbc7de0bc"
+    },
+    {
+      "name": "candles.csv.gz.part-02",
+      "sha256": "c91cdce958877478728cc7d031ba56e08a2ac345b1052c2cbd6005c57a84951f"
+    },
+    {
+      "name": "candles.csv.gz.part-03",
+      "sha256": "59bab2ab4ff535abfc3fcc5dbdbc8813e639c33bba22e8c4c97fc850f6a1b74b"
+    },
+    {
+      "name": "candles.csv.gz.part-04",
+      "sha256": "4565bd92a0b89fe7ce5cb432f478e1e347b5bdb56bdf049aa26d8e58bbb94bab"
+    },
+    {
+      "name": "candles.csv.gz.part-05",
+      "sha256": "1b5b29a931f5ab8a0b72b93a0a38b7242d2e14edc1414faf465c5c3969cd460e"
+    }
+  ],
+  "assembled_name": "candles.csv.gz",
+  "assembled_sha256": "5ad0076d56dee4f1531bf8a6f37bd0e1f8b0d878b07cdbee9d52bb4c4fc0b517",
+  "rows": 270570,
+  "columns": [
+    "symbol",
+    "timeframe",
+    "start_time_utc",
+    "open",
+    "high",
+    "low",
+    "close"
+  ],
+  "source": "/var/lib/apex/precision-history/closed-candles.sqlite3",
+  "note": "Deriv synthetic-index candle data; snapshot includes available rows as of export; no private account data."
+}

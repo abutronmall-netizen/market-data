@@ -1,0 +1,36 @@
+{
+  "broker": "FP Markets",
+  "datasets": [
+    {
+      "file": "candles.csv.gz",
+      "rows": 145073,
+      "sha256": "d6fe1bc32f64a7c49bd072c98eb7562515c1fde62dc1b23cb647136d08a3b26c",
+      "columns": [
+        "symbol",
+        "broker_symbol",
+        "timeframe",
+        "start_time_utc",
+        "open",
+        "high",
+        "low",
+        "close",
+        "broker_time_raw"
+      ]
+    },
+    {
+      "file": "quotes.csv.gz",
+      "rows": 30158,
+      "sha256": "762d8fef15278c8d0fa9aaa05a6534a719722217b575fefc521f8963c61389e7",
+      "columns": [
+        "symbol",
+        "broker_symbol",
+        "observed_utc",
+        "bid",
+        "ask",
+        "spread_price"
+      ]
+    }
+  ],
+  "source": "/var/lib/abutron-quant-first/dual-broker/fp-immutable-native-candles.sqlite3",
+  "note": "Account fingerprints and credentials excluded; historical broker market data only."
+}
