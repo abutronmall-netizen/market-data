@@ -1,35 +1,13 @@
 {
   "broker": "Deriv",
+  "generated_at_utc": "2026-11-15T10:27:06Z",
   "format": "gzip CSV split into sequential byte chunks",
-  "files": [
-    {
-      "name": "candles.csv.gz.part-00",
-      "sha256": "0d565907273c395050bb03b1d46042120caa5a90dcaaeba352baed3d832f3956"
-    },
-    {
-      "name": "candles.csv.gz.part-01",
-      "sha256": "56b055967cc9ca9b2e394c816a1af0ec01248d36f745aa242db51bfbbc7de0bc"
-    },
-    {
-      "name": "candles.csv.gz.part-02",
-      "sha256": "c91cdce958877478728cc7d031ba56e08a2ac345b1052c2cbd6005c57a84951f"
-    },
-    {
-      "name": "candles.csv.gz.part-03",
-      "sha256": "59bab2ab4ff535abfc3fcc5dbdbc8813e639c33bba22e8c4c97fc850f6a1b74b"
-    },
-    {
-      "name": "candles.csv.gz.part-04",
-      "sha256": "4565bd92a0b89fe7ce5cb432f478e1e347b5bdb56bdf049aa26d8e58bbb94bab"
-    },
-    {
-      "name": "candles.csv.gz.part-05",
-      "sha256": "1b5b29a931f5ab8a0b72b93a0a38b7242d2e14edc1414faf465c5c3969cd460e"
-    }
-  ],
   "assembled_name": "candles.csv.gz",
-  "assembled_sha256": "5ad0076d56dee4f1531bf8a6f37bd0e1f8b0d878b07cdbee9d52bb4c4fc0b517",
-  "rows": 270570,
+  "assembled_sha256": "29bd959cadb5bc67942d426f925c2a465568fbcde407142891332ad3c91ae3b9",
+  "rows": 307115,
+  "rejected_rows": 0,
+  "time_utc_min": "2026-07-25T00:00:00Z",
+  "time_utc_max": "2026-11-15T10:22:00Z",
   "columns": [
     "symbol",
     "timeframe",
@@ -39,6 +17,43 @@
     "low",
     "close"
   ],
-  "source": "/var/lib/apex/precision-history/closed-candles.sqlite3",
-  "note": "Deriv synthetic-index candle data; snapshot includes available rows as of export; no private account data."
+  "files": [
+    {
+      "name": "candles.csv.gz.part-00",
+      "size_bytes": 700000,
+      "sha256": "cf4190659978e1c08008e9118e1200ea05fa3811d2e6f2e7e1a90a12a8e16751"
+    },
+    {
+      "name": "candles.csv.gz.part-01",
+      "size_bytes": 700000,
+      "sha256": "e4a47e2772c04389e7adfa660bd1d7b77d7708156ecf45ae00813e399174d1b2"
+    },
+    {
+      "name": "candles.csv.gz.part-02",
+      "size_bytes": 700000,
+      "sha256": "a977183afe44818dbbd8315f33207a0a2110d665b79847cd6c548266af68ab73"
+    },
+    {
+      "name": "candles.csv.gz.part-03",
+      "size_bytes": 700000,
+      "sha256": "86bf9330282bbdf01f9fde1e0ab942093e5aaa6c0fd0787b1521be6f5fb45415"
+    },
+    {
+      "name": "candles.csv.gz.part-04",
+      "size_bytes": 700000,
+      "sha256": "affe39f4b25c9fa5a6b7714f27a31d37b15cd44c4515e27521122ff63e983d7f"
+    },
+    {
+      "name": "candles.csv.gz.part-05",
+      "size_bytes": 700000,
+      "sha256": "03ceb696c4932a499800f0eb35a72d35944cf5a7018b87c7b1c1836572ea55cf"
+    },
+    {
+      "name": "candles.csv.gz.part-06",
+      "size_bytes": 112017,
+      "sha256": "98e197a41e8a182efbd71112935207f802e7b5394921d955bf15e24694ad029e"
+    }
+  ],
+  "source": "read-only Deriv closed-candle archive",
+  "note": "Market candles only; no trading-account data, broker identities or credentials."
 }

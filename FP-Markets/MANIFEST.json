@@ -1,10 +1,15 @@
 {
   "broker": "FP Markets",
+  "generated_at_utc": "2026-11-15T10:27:06Z",
   "datasets": [
     {
       "file": "candles.csv.gz",
-      "rows": 145073,
-      "sha256": "d6fe1bc32f64a7c49bd072c98eb7562515c1fde62dc1b23cb647136d08a3b26c",
+      "rows": 146733,
+      "previous_archive_rows": 145073,
+      "new_native_rows": 1660,
+      "sha256": "79f646c8a8ea958d56e0b543853b9f8dd53941b2310198bc332b2d579df2d9eb",
+      "time_utc_min": "2026-07-30T22:00:00Z",
+      "time_utc_max": "2026-11-13T21:58:00Z",
       "columns": [
         "symbol",
         "broker_symbol",
@@ -19,8 +24,12 @@
     },
     {
       "file": "quotes.csv.gz",
-      "rows": 30158,
-      "sha256": "762d8fef15278c8d0fa9aaa05a6534a719722217b575fefc521f8963c61389e7",
+      "rows": 30171,
+      "previous_archive_rows": 30158,
+      "new_native_rows": 13,
+      "sha256": "0abbdba0349ae60935320f06283ad03bbc24bfa3e5d5cc92491919de8af1b44e",
+      "time_utc_min": "2026-11-06T17:47:02Z",
+      "time_utc_max": "2026-11-13T21:59:59Z",
       "columns": [
         "symbol",
         "broker_symbol",
@@ -31,6 +40,14 @@
       ]
     }
   ],
-  "source": "/var/lib/abutron-quant-first/dual-broker/fp-immutable-native-candles.sqlite3",
-  "note": "Account fingerprints and credentials excluded; historical broker market data only."
+  "rejected_rows": {
+    "fp_existing_candles": 0,
+    "fp_existing_quotes": 0,
+    "fp_native_candles": 0,
+    "fp_native_quotes": 0
+  },
+  "native_complete_demo_export_files_processed": 8,
+  "source": "read-only FP Markets native price-history archive plus the latest complete DEMO-only MT5 bar/quote exports",
+  "timestamp_note": "Broker-native timestamps translated to UTC using the previously verified +7200s broker offset; broker_time_raw kept as supplied in candle files.",
+  "note": "Market price data only; all account fingerprints, client and trade records, credentials and execution permissions excluded."
 }
