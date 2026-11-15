@@ -1,15 +1,8 @@
 {
   "broker": "FP Markets",
-  "generated_at_utc": "2026-11-15T10:27:06Z",
   "datasets": [
     {
-      "file": "candles.csv.gz",
-      "rows": 146733,
-      "previous_archive_rows": 145073,
-      "new_native_rows": 1660,
-      "sha256": "79f646c8a8ea958d56e0b543853b9f8dd53941b2310198bc332b2d579df2d9eb",
-      "time_utc_min": "2026-07-30T22:00:00Z",
-      "time_utc_max": "2026-11-13T21:58:00Z",
+      "assembled_name": "candles.csv.gz",
       "columns": [
         "symbol",
         "broker_symbol",
@@ -20,16 +13,45 @@
         "low",
         "close",
         "broker_time_raw"
-      ]
+      ],
+      "file": "candles.csv.gz",
+      "new_native_rows": 178514,
+      "new_native_source": "read-only MetaTrader 5 FPMarketsSC-Demo HCC cache",
+      "parts": [
+        {
+          "name": "candles.csv.gz.part-00",
+          "sha256": "d65564128b7fe4ec0097c366d4f44af38646d9a341b396dced2470f5c92c86a6",
+          "size_bytes": 700000
+        },
+        {
+          "name": "candles.csv.gz.part-01",
+          "sha256": "a8e790e68446c25b8c93f94d0ce48d4162d1e97ee851d99f7c002ad4e880bb1a",
+          "size_bytes": 700000
+        },
+        {
+          "name": "candles.csv.gz.part-02",
+          "sha256": "8893eea1315a4b043fafcd8c305e2f22c733ff8a1b5fa80718f45659c1dd0671",
+          "size_bytes": 700000
+        },
+        {
+          "name": "candles.csv.gz.part-03",
+          "sha256": "a23d0d97942f1f6c494d32d79c56e1c39d4042bdac9b0d8390ee396d3a203673",
+          "size_bytes": 700000
+        },
+        {
+          "name": "candles.csv.gz.part-04",
+          "sha256": "bbdbadb8fc1db92d346a2a3636759bd803c5a01473ec8a36b001705facf82b69",
+          "size_bytes": 554301
+        }
+      ],
+      "previous_archive_rows": 146733,
+      "rows": 325247,
+      "sha256": "2896482767467ff10b47e953d555dcbe7d5def915aee73bfabc93978d34f96b7",
+      "storage_format": "gzip CSV split across ordered byte parts",
+      "time_utc_max": "2026-11-13T21:58:00Z",
+      "time_utc_min": "2026-07-30T22:00:00Z"
     },
     {
-      "file": "quotes.csv.gz",
-      "rows": 30171,
-      "previous_archive_rows": 30158,
-      "new_native_rows": 13,
-      "sha256": "0abbdba0349ae60935320f06283ad03bbc24bfa3e5d5cc92491919de8af1b44e",
-      "time_utc_min": "2026-11-06T17:47:02Z",
-      "time_utc_max": "2026-11-13T21:59:59Z",
       "columns": [
         "symbol",
         "broker_symbol",
@@ -37,17 +59,264 @@
         "bid",
         "ask",
         "spread_price"
-      ]
+      ],
+      "file": "quotes.csv.gz",
+      "new_native_rows": 13,
+      "previous_archive_rows": 30158,
+      "rows": 30171,
+      "sha256": "0abbdba0349ae60935320f06283ad03bbc24bfa3e5d5cc92491919de8af1b44e",
+      "time_utc_max": "2026-11-13T21:59:59Z",
+      "time_utc_min": "2026-11-06T17:47:02Z"
     }
   ],
+  "generated_at_utc": "2026-11-15T22:20:31Z",
+  "native_complete_demo_export_files_processed": 8,
+  "note": "Market OHLC only. Original price rows preserved. Quotes unchanged; no 2026-11-05 bid/ask quote backfill. No account, client, trade, credentials, or fingerprint records in public CSV.",
+  "nov05_backfill": {
+    "added": 178514,
+    "added_per_tf": {
+      "H1": 1415,
+      "M1": 141103,
+      "M15": 8526,
+      "M5": 27470
+    },
+    "broker_local_date_window": "2026-10-28 through 2026-11-06",
+    "broker_time_offset_seconds": 7200,
+    "candle_aggregation": "Complete sets of native M1 bars only. No fabricated market-closure periods.",
+    "conflicting_overlaps": 0,
+    "days_without_session_history": [
+      {
+        "local_day": "2026-10-31",
+        "symbol": "AUDUSD"
+      },
+      {
+        "local_day": "2026-11-01",
+        "symbol": "AUDUSD"
+      },
+      {
+        "local_day": "2026-10-31",
+        "symbol": "BTCUSD"
+      },
+      {
+        "local_day": "2026-11-01",
+        "symbol": "BTCUSD"
+      },
+      {
+        "local_day": "2026-10-31",
+        "symbol": "EURUSD"
+      },
+      {
+        "local_day": "2026-11-01",
+        "symbol": "EURUSD"
+      },
+      {
+        "local_day": "2026-10-31",
+        "symbol": "GBPUSD"
+      },
+      {
+        "local_day": "2026-11-01",
+        "symbol": "GBPUSD"
+      },
+      {
+        "local_day": "2026-10-31",
+        "symbol": "GER40"
+      },
+      {
+        "local_day": "2026-11-01",
+        "symbol": "GER40"
+      },
+      {
+        "local_day": "2026-10-31",
+        "symbol": "NZDUSD"
+      },
+      {
+        "local_day": "2026-11-01",
+        "symbol": "NZDUSD"
+      },
+      {
+        "local_day": "2026-10-31",
+        "symbol": "SP500"
+      },
+      {
+        "local_day": "2026-11-01",
+        "symbol": "SP500"
+      },
+      {
+        "local_day": "2026-10-31",
+        "symbol": "US100"
+      },
+      {
+        "local_day": "2026-11-01",
+        "symbol": "US100"
+      },
+      {
+        "local_day": "2026-10-31",
+        "symbol": "US30"
+      },
+      {
+        "local_day": "2026-11-01",
+        "symbol": "US30"
+      },
+      {
+        "local_day": "2026-10-31",
+        "symbol": "USDCHF"
+      },
+      {
+        "local_day": "2026-11-01",
+        "symbol": "USDCHF"
+      },
+      {
+        "local_day": "2026-10-31",
+        "symbol": "USDJPY"
+      },
+      {
+        "local_day": "2026-11-01",
+        "symbol": "USDJPY"
+      },
+      {
+        "local_day": "2026-10-31",
+        "symbol": "USOIL"
+      },
+      {
+        "local_day": "2026-11-01",
+        "symbol": "USOIL"
+      },
+      {
+        "local_day": "2026-10-31",
+        "symbol": "XAUUSD"
+      },
+      {
+        "local_day": "2026-11-01",
+        "symbol": "XAUUSD"
+      }
+    ],
+    "matched_overlaps": {
+      "D1": 31,
+      "H1": 957,
+      "H4": 538,
+      "M1": 3442,
+      "M15": 1078,
+      "M5": 1416
+    },
+    "native_sources": [
+      {
+        "broker_symbol": "AUDUSD.r",
+        "market_days_scanned": 8,
+        "minute_rows_validated": 11516,
+        "native_hcc_sha256": "034b38823c81f5a95066dc59488ba5f7278347807c7ea0f67dfcb8c8421c39bc",
+        "native_hcc_size_bytes": 26569785,
+        "symbol": "AUDUSD"
+      },
+      {
+        "broker_symbol": "BTCUSD",
+        "market_days_scanned": 8,
+        "minute_rows_validated": 11520,
+        "native_hcc_sha256": "da171ac04339af12f3398be03ffaaf353936d80915486d93c9c1156aac715bfd",
+        "native_hcc_size_bytes": 26970477,
+        "symbol": "BTCUSD"
+      },
+      {
+        "broker_symbol": "EURUSD.r",
+        "market_days_scanned": 8,
+        "minute_rows_validated": 11439,
+        "native_hcc_sha256": "3b845661ea2c3f15b083075a558f58b4cefcce187067497e3d28b2485ea57a78",
+        "native_hcc_size_bytes": 26486727,
+        "symbol": "EURUSD"
+      },
+      {
+        "broker_symbol": "GBPUSD.r",
+        "market_days_scanned": 8,
+        "minute_rows_validated": 11475,
+        "native_hcc_sha256": "b2f5eaa1203c6b0cdc0090d2a8022f6ffa82095509fb2f193918e0ad8ee52e25",
+        "native_hcc_size_bytes": 25874784,
+        "symbol": "GBPUSD"
+      },
+      {
+        "broker_symbol": "GER40",
+        "market_days_scanned": 8,
+        "minute_rows_validated": 10080,
+        "native_hcc_sha256": "3a8cd40a45edf5259270a7b977b65344f6e0375be0bf67ad8f208fe62c99bd95",
+        "native_hcc_size_bytes": 24660087,
+        "symbol": "GER40"
+      },
+      {
+        "broker_symbol": "NZDUSD.r",
+        "market_days_scanned": 8,
+        "minute_rows_validated": 11494,
+        "native_hcc_sha256": "b8714a1a7628bd80760aee171478ec585d446d77c762096efae410d3a135cfb8",
+        "native_hcc_size_bytes": 26658672,
+        "symbol": "NZDUSD"
+      },
+      {
+        "broker_symbol": "US500",
+        "market_days_scanned": 8,
+        "minute_rows_validated": 11040,
+        "native_hcc_sha256": "2f6f24ed76c259c99c78e1d34b1e5a8ed7a71881d614b53b7184e56acc361e1b",
+        "native_hcc_size_bytes": 25578570,
+        "symbol": "SP500"
+      },
+      {
+        "broker_symbol": "US100",
+        "market_days_scanned": 8,
+        "minute_rows_validated": 11032,
+        "native_hcc_sha256": "af1f25d608256995b51f9e3fce8d8ec3ca1ce36412c3dcf3f63948be96fdc523",
+        "native_hcc_size_bytes": 25262454,
+        "symbol": "US100"
+      },
+      {
+        "broker_symbol": "US30",
+        "market_days_scanned": 8,
+        "minute_rows_validated": 11032,
+        "native_hcc_sha256": "ad2333dd0dbc5cfc15ba541a098a1722761ab5e58f0c34db8f9ccf62e7399673",
+        "native_hcc_size_bytes": 25228314,
+        "symbol": "US30"
+      },
+      {
+        "broker_symbol": "USDCHF.r",
+        "market_days_scanned": 8,
+        "minute_rows_validated": 11503,
+        "native_hcc_sha256": "6d939d4b723adcd042055af09d3218f951b5c2e5e15cf6e3010b4ecc5487e981",
+        "native_hcc_size_bytes": 26234400,
+        "symbol": "USDCHF"
+      },
+      {
+        "broker_symbol": "USDJPY.r",
+        "market_days_scanned": 8,
+        "minute_rows_validated": 11506,
+        "native_hcc_sha256": "24f055c307e1d556db78c63a84355267c7e0cb085358322dcf37d9e332da2a7f",
+        "native_hcc_size_bytes": 44547195,
+        "symbol": "USDJPY"
+      },
+      {
+        "broker_symbol": "XTIUSD",
+        "market_days_scanned": 8,
+        "minute_rows_validated": 10938,
+        "native_hcc_sha256": "4f2c6334df5fd321c0e74863a1d6e1e89f84c4f51fc25cbf3f0e071332dcfc51",
+        "native_hcc_size_bytes": 25393272,
+        "symbol": "USOIL"
+      },
+      {
+        "broker_symbol": "XAUUSD.r",
+        "market_days_scanned": 8,
+        "minute_rows_validated": 11040,
+        "native_hcc_sha256": "4d3bb9faf2d97523d43fb726ef565d94ec7f4641188fe1941c1a995014c0c14e",
+        "native_hcc_size_bytes": 25832088,
+        "symbol": "XAUUSD"
+      }
+    ],
+    "old_duplicate_keys_verified_identical": 78412,
+    "previous_rows": 146733,
+    "previous_sha256": "79f646c8a8ea958d56e0b543853b9f8dd53941b2310198bc332b2d579df2d9eb",
+    "private_feature_window_check": "All 2026-11-05 checked entry windows contained 30 preceding closed candles at M1/M5/M15/H1/H4/D1; private trading counts/details excluded from this public archive.",
+    "quotes_changed": false,
+    "utc_range_added": "2026-10-28 through 2026-11-06"
+  },
   "rejected_rows": {
     "fp_existing_candles": 0,
     "fp_existing_quotes": 0,
     "fp_native_candles": 0,
     "fp_native_quotes": 0
   },
-  "native_complete_demo_export_files_processed": 8,
-  "source": "read-only FP Markets native price-history archive plus the latest complete DEMO-only MT5 bar/quote exports",
-  "timestamp_note": "Broker-native timestamps translated to UTC using the previously verified +7200s broker offset; broker_time_raw kept as supplied in candle files.",
-  "note": "Market price data only; all account fingerprints, client and trade records, credentials and execution permissions excluded."
+  "source": "Original FP Markets archive plus broker-native MetaTrader 5 2026.hcc historical M1 candles",
+  "timestamp_note": "Broker-native timestamps translated to UTC using the previously verified +7200s broker offset; broker_time_raw kept as supplied in candle files."
 }
