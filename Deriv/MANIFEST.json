@@ -1,13 +1,249 @@
 {
-  "broker": "Deriv",
-  "generated_at_utc": "2026-11-15T10:27:06Z",
-  "format": "gzip CSV split into sequential byte chunks",
   "assembled_name": "candles.csv.gz",
-  "assembled_sha256": "29bd959cadb5bc67942d426f925c2a465568fbcde407142891332ad3c91ae3b9",
-  "rows": 307115,
-  "rejected_rows": 0,
-  "time_utc_min": "2026-07-25T00:00:00Z",
-  "time_utc_max": "2026-11-15T10:22:00Z",
+  "assembled_sha256": "6f5c0e0a5289376bd49571e57346f4eb58a2f4538158cdb9f804ab1c93b66c42",
+  "backfill": {
+    "added_by_timeframe": {
+      "H1": 2431,
+      "M1": 222508,
+      "M15": 13624,
+      "M5": 43446
+    },
+    "confirmed_equal_overlaps_by_timeframe": {
+      "D1": 143,
+      "H1": 1300,
+      "H4": 923,
+      "M1": 2041,
+      "M15": 1339,
+      "M5": 1456
+    },
+    "conflicting_overlaps": {},
+    "documented_partial_day_gaps": [
+      {
+        "day": "2026-11-02",
+        "first_unavailable_minute_utc": "2026-11-02T13:00:00Z",
+        "last_unavailable_minute_utc": "2026-11-02T13:06:00Z",
+        "symbol": "Boom 1000 Index.0",
+        "unavailable_minute_count": 7
+      },
+      {
+        "day": "2026-11-02",
+        "first_unavailable_minute_utc": "2026-11-02T13:00:00Z",
+        "last_unavailable_minute_utc": "2026-11-02T13:06:00Z",
+        "symbol": "Boom 150 Index.0",
+        "unavailable_minute_count": 7
+      },
+      {
+        "day": "2026-11-02",
+        "first_unavailable_minute_utc": "2026-11-02T13:00:00Z",
+        "last_unavailable_minute_utc": "2026-11-02T13:06:00Z",
+        "symbol": "Boom 300 Index.0",
+        "unavailable_minute_count": 7
+      },
+      {
+        "day": "2026-11-02",
+        "first_unavailable_minute_utc": "2026-11-02T13:00:00Z",
+        "last_unavailable_minute_utc": "2026-11-02T13:06:00Z",
+        "symbol": "Boom 600 Index.0",
+        "unavailable_minute_count": 7
+      },
+      {
+        "day": "2026-11-02",
+        "first_unavailable_minute_utc": "2026-11-02T13:00:00Z",
+        "last_unavailable_minute_utc": "2026-11-02T13:06:00Z",
+        "symbol": "Crash 1000 Index.0",
+        "unavailable_minute_count": 7
+      },
+      {
+        "day": "2026-11-02",
+        "first_unavailable_minute_utc": "2026-11-02T13:00:00Z",
+        "last_unavailable_minute_utc": "2026-11-02T13:06:00Z",
+        "symbol": "Crash 150 Index.0",
+        "unavailable_minute_count": 7
+      },
+      {
+        "day": "2026-11-02",
+        "first_unavailable_minute_utc": "2026-11-02T13:00:00Z",
+        "last_unavailable_minute_utc": "2026-11-02T13:06:00Z",
+        "symbol": "Crash 300 Index.0",
+        "unavailable_minute_count": 7
+      },
+      {
+        "day": "2026-11-02",
+        "first_unavailable_minute_utc": "2026-11-02T13:00:00Z",
+        "last_unavailable_minute_utc": "2026-11-02T13:06:00Z",
+        "symbol": "Crash 600 Index.0",
+        "unavailable_minute_count": 7
+      },
+      {
+        "day": "2026-11-02",
+        "first_unavailable_minute_utc": "2026-11-02T13:00:00Z",
+        "last_unavailable_minute_utc": "2026-11-02T13:06:00Z",
+        "symbol": "Volatility 10 Index.0",
+        "unavailable_minute_count": 7
+      },
+      {
+        "day": "2026-11-02",
+        "first_unavailable_minute_utc": "2026-11-02T13:00:00Z",
+        "last_unavailable_minute_utc": "2026-11-02T13:06:00Z",
+        "symbol": "Volatility 100 Index.0",
+        "unavailable_minute_count": 7
+      },
+      {
+        "day": "2026-11-02",
+        "first_unavailable_minute_utc": "2026-11-02T13:00:00Z",
+        "last_unavailable_minute_utc": "2026-11-02T13:06:00Z",
+        "symbol": "Volatility 25 Index.0",
+        "unavailable_minute_count": 7
+      },
+      {
+        "day": "2026-11-02",
+        "first_unavailable_minute_utc": "2026-11-02T13:00:00Z",
+        "last_unavailable_minute_utc": "2026-11-02T13:06:00Z",
+        "symbol": "Volatility 50 Index.0",
+        "unavailable_minute_count": 7
+      },
+      {
+        "day": "2026-11-02",
+        "first_unavailable_minute_utc": "2026-11-02T13:00:00Z",
+        "last_unavailable_minute_utc": "2026-11-02T13:06:00Z",
+        "symbol": "Volatility 75 Index.0",
+        "unavailable_minute_count": 7
+      }
+    ],
+    "end_utc_exclusive": "2026-11-03T00:00:00Z",
+    "hcc_sources": [
+      {
+        "cached_2026_hcc_sha256": "81c2c6e56721b7b86391a9568d6385f52679c8a1192d08d7f7b81aaeb5cbef97",
+        "complete_m1_days": 11,
+        "extracted_m1_rows": 17273,
+        "size_bytes": 36857247,
+        "symbol": "Boom 1000 Index.0"
+      },
+      {
+        "cached_2026_hcc_sha256": "3288e8ac5d0f19795a6daee1bf7413cbe63df5f273dd00e9f83a75440b9092cc",
+        "complete_m1_days": 11,
+        "extracted_m1_rows": 17273,
+        "size_bytes": 36508491,
+        "symbol": "Boom 150 Index.0"
+      },
+      {
+        "cached_2026_hcc_sha256": "c51acad4ca60b6f401600dd85f6471461187705f693eabe56d16602a7ae1ec9c",
+        "complete_m1_days": 11,
+        "extracted_m1_rows": 17273,
+        "size_bytes": 36776238,
+        "symbol": "Boom 300 Index.0"
+      },
+      {
+        "cached_2026_hcc_sha256": "76b47615c96a01669b5c6882677ef2188761852a264e77ea8e6f72c7db782f90",
+        "complete_m1_days": 11,
+        "extracted_m1_rows": 17273,
+        "size_bytes": 36516471,
+        "symbol": "Boom 600 Index.0"
+      },
+      {
+        "cached_2026_hcc_sha256": "3604579d69a9b6daaabb75f44d495ab56506a0f015ea7d2ff927d162d2857dee",
+        "complete_m1_days": 11,
+        "extracted_m1_rows": 17273,
+        "size_bytes": 36854427,
+        "symbol": "Crash 1000 Index.0"
+      },
+      {
+        "cached_2026_hcc_sha256": "5cb8eca4167b1bbd20100524e6f3852c1a2dc8d6c24b4778779ed00d951429c3",
+        "complete_m1_days": 11,
+        "extracted_m1_rows": 17273,
+        "size_bytes": 36500091,
+        "symbol": "Crash 150 Index.0"
+      },
+      {
+        "cached_2026_hcc_sha256": "58a35e65832039a6e2e72810fd7f12bda1125bade355fe83aafb63d18e9234a6",
+        "complete_m1_days": 11,
+        "extracted_m1_rows": 17273,
+        "size_bytes": 36346833,
+        "symbol": "Crash 300 Index.0"
+      },
+      {
+        "cached_2026_hcc_sha256": "5b8bc3b8321747476cf21b3049981b3cc406deaa0fbc650b0c0731f2deba37ee",
+        "complete_m1_days": 11,
+        "extracted_m1_rows": 17273,
+        "size_bytes": 36508491,
+        "symbol": "Crash 600 Index.0"
+      },
+      {
+        "cached_2026_hcc_sha256": "483d8d581561f03839e6e75ac51ee975983f46b2f38f2de1e93226a15518d5f9",
+        "complete_m1_days": 11,
+        "extracted_m1_rows": 17273,
+        "size_bytes": 36501291,
+        "symbol": "Volatility 10 Index.0"
+      },
+      {
+        "cached_2026_hcc_sha256": "7775c9ece7c87a8be090eb08cadd8921a1de670ed4085607e2101f6b6b423c7c",
+        "complete_m1_days": 11,
+        "extracted_m1_rows": 17273,
+        "size_bytes": 36855627,
+        "symbol": "Volatility 100 Index.0"
+      },
+      {
+        "cached_2026_hcc_sha256": "371fb75fc1ee5f767f67640a643cefc6dc81f48ef531cef17559abf73fc677de",
+        "complete_m1_days": 11,
+        "extracted_m1_rows": 17273,
+        "size_bytes": 36502491,
+        "symbol": "Volatility 25 Index.0"
+      },
+      {
+        "cached_2026_hcc_sha256": "efb5f5efbf0ec1ae75f57852608d3697efb05244691fb6e1bb780d143ba37edf",
+        "complete_m1_days": 11,
+        "extracted_m1_rows": 17273,
+        "size_bytes": 36502491,
+        "symbol": "Volatility 50 Index.0"
+      },
+      {
+        "cached_2026_hcc_sha256": "1b044a0997e61964451f2ffe3d6f36e95ee358565138bb70cee15d333883ab9b",
+        "complete_m1_days": 11,
+        "extracted_m1_rows": 17273,
+        "size_bytes": 62942112,
+        "symbol": "Volatility 75 Index.0"
+      }
+    ],
+    "minute_records_validated": 224549,
+    "missing_full_days": [],
+    "previous_snapshot_assembled_sha256": "29bd959cadb5bc67942d426f925c2a465568fbcde407142891332ad3c91ae3b9",
+    "previous_snapshot_rows": 307115,
+    "source": "Deriv-Demo MT5 native 2026.hcc minute history (read-only)",
+    "start_utc": "2026-10-22T00:00:00Z",
+    "timeframe_coverage": {
+      "D1": {
+        "earliest_utc": "2026-07-25T00:00:00Z",
+        "latest_utc": "2026-11-14T00:00:00Z",
+        "rows": 1469
+      },
+      "H1": {
+        "earliest_utc": "2026-10-22T00:00:00Z",
+        "latest_utc": "2026-11-15T09:00:00Z",
+        "rows": 7618
+      },
+      "H4": {
+        "earliest_utc": "2026-10-17T04:00:00Z",
+        "latest_utc": "2026-11-15T04:00:00Z",
+        "rows": 2275
+      },
+      "M1": {
+        "earliest_utc": "2026-10-22T00:00:00Z",
+        "latest_utc": "2026-11-15T10:22:00Z",
+        "rows": 455835
+      },
+      "M15": {
+        "earliest_utc": "2026-10-22T00:00:00Z",
+        "latest_utc": "2026-11-15T10:00:00Z",
+        "rows": 30485
+      },
+      "M5": {
+        "earliest_utc": "2026-10-22T00:00:00Z",
+        "latest_utc": "2026-11-15T10:15:00Z",
+        "rows": 91442
+      }
+    }
+  },
+  "broker": "Deriv",
   "columns": [
     "symbol",
     "timeframe",
@@ -20,40 +256,71 @@
   "files": [
     {
       "name": "candles.csv.gz.part-00",
-      "size_bytes": 700000,
-      "sha256": "cf4190659978e1c08008e9118e1200ea05fa3811d2e6f2e7e1a90a12a8e16751"
+      "sha256": "41f520b5d22630a4289224e961ab5dada7d5de2b100048a186c57a25181697fb",
+      "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-01",
-      "size_bytes": 700000,
-      "sha256": "e4a47e2772c04389e7adfa660bd1d7b77d7708156ecf45ae00813e399174d1b2"
+      "sha256": "7ec16127aca35f3dd9205c8e41be04920d265192d08aff336547aaa244539e58",
+      "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-02",
-      "size_bytes": 700000,
-      "sha256": "a977183afe44818dbbd8315f33207a0a2110d665b79847cd6c548266af68ab73"
+      "sha256": "c3664c5379cc76ba4307fa4ac11d4ddeaf1ed966df96dec3e823eaff1f51b812",
+      "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-03",
-      "size_bytes": 700000,
-      "sha256": "86bf9330282bbdf01f9fde1e0ab942093e5aaa6c0fd0787b1521be6f5fb45415"
+      "sha256": "fa3dce193cefe78531c83ce61da55bba4e4b908a23202eb508f9f8d1bd68e236",
+      "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-04",
-      "size_bytes": 700000,
-      "sha256": "affe39f4b25c9fa5a6b7714f27a31d37b15cd44c4515e27521122ff63e983d7f"
+      "sha256": "af379f4b4b087526470db5e298569dfa52fecc6dbe04ebb9caebf36d03739945",
+      "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-05",
-      "size_bytes": 700000,
-      "sha256": "03ceb696c4932a499800f0eb35a72d35944cf5a7018b87c7b1c1836572ea55cf"
+      "sha256": "fcb006b4cf4e4f08b42fba9e33883f7fb58c147266b05ca81d848f7bda10d016",
+      "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-06",
-      "size_bytes": 112017,
-      "sha256": "98e197a41e8a182efbd71112935207f802e7b5394921d955bf15e24694ad029e"
+      "sha256": "036121cd17c3498b27c088e72258af614af171bf8cb70547f87d1f27619a8215",
+      "size_bytes": 700000
+    },
+    {
+      "name": "candles.csv.gz.part-07",
+      "sha256": "3c010d5c5d6cb612d680da127c0323a3146cb3448573370aa96dd2975f9855fa",
+      "size_bytes": 700000
+    },
+    {
+      "name": "candles.csv.gz.part-08",
+      "sha256": "12c340e5d3c3c87962fdeca3d918c963d9fc219aa4d9e1216f87cedcf5050149",
+      "size_bytes": 700000
+    },
+    {
+      "name": "candles.csv.gz.part-09",
+      "sha256": "b25de0320518a0bed22261f0ce270efdd2615067b2e37d184894d3e802ef9fa3",
+      "size_bytes": 700000
+    },
+    {
+      "name": "candles.csv.gz.part-10",
+      "sha256": "bb09aedc45ce391190de9bf34785201f6cf9d372ad1aba16b019c88b197aef9a",
+      "size_bytes": 700000
+    },
+    {
+      "name": "candles.csv.gz.part-11",
+      "sha256": "b6ea1d6e81bbf597dbf791a222f90569f3e4b1e3e265e8dc35dfe7fe20f8b02c",
+      "size_bytes": 427269
     }
   ],
-  "source": "read-only Deriv closed-candle archive",
-  "note": "Market candles only; no trading-account data, broker identities or credentials."
+  "format": "gzip CSV split into sequential byte chunks",
+  "generated_at_utc": "2026-11-15T21:06:39Z",
+  "note": "Public OHLC only. No client/account identity, trades, funding, credentials, or execution settings. Original records preserved. No conflicting overlapping candles. Source cache copies checked for byte-identical OHLC.",
+  "rejected_rows": 0,
+  "rows": 589124,
+  "source": "Original verified broker-native Deriv closed-candle archive merged with validated native MT5 2026 HCC cached M1 history, M5/M15/H1/H4/D1 aggregated from complete M1 days",
+  "time_utc_max": "2026-11-15T10:22:00Z",
+  "time_utc_min": "2026-07-25T00:00:00Z"
 }
