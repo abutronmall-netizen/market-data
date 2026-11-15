@@ -1,6 +1,6 @@
 {
   "assembled_name": "candles.csv.gz",
-  "assembled_sha256": "6f5c0e0a5289376bd49571e57346f4eb58a2f4538158cdb9f804ab1c93b66c42",
+  "assembled_sha256": "a31fd8f5746dbbc5bad2ea19d79d882bf48e4764b11a1b136a18fef5c79c258d",
   "backfill": {
     "added_by_timeframe": {
       "H1": 2431,
@@ -256,71 +256,343 @@
   "files": [
     {
       "name": "candles.csv.gz.part-00",
-      "sha256": "41f520b5d22630a4289224e961ab5dada7d5de2b100048a186c57a25181697fb",
+      "sha256": "1dfedb702860a4d4525fdbd43305a16f5e97601c14f6aa433da5a3214d35afbb",
       "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-01",
-      "sha256": "7ec16127aca35f3dd9205c8e41be04920d265192d08aff336547aaa244539e58",
+      "sha256": "824be536f4c663586d33ebc424dc01945ec6cbb54119325fdb93180619fc6ed2",
       "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-02",
-      "sha256": "c3664c5379cc76ba4307fa4ac11d4ddeaf1ed966df96dec3e823eaff1f51b812",
+      "sha256": "75d96adc544f38fe49db324c806daaf0489e8175f256bb7f49ee2960adb82410",
       "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-03",
-      "sha256": "fa3dce193cefe78531c83ce61da55bba4e4b908a23202eb508f9f8d1bd68e236",
+      "sha256": "2c17ae5092487413bb51c283065c949f59f3f795b8a8ce671ad8fd42a02251f4",
       "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-04",
-      "sha256": "af379f4b4b087526470db5e298569dfa52fecc6dbe04ebb9caebf36d03739945",
+      "sha256": "964da60d0a14faeaaadb5dc2cd0fe257ffc81f938fd0c530bb1cda339398e142",
       "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-05",
-      "sha256": "fcb006b4cf4e4f08b42fba9e33883f7fb58c147266b05ca81d848f7bda10d016",
+      "sha256": "4cb240d773fab812aa0ee2bc3e74f5d794cf75792ff6232b9ea223f58f5fc999",
       "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-06",
-      "sha256": "036121cd17c3498b27c088e72258af614af171bf8cb70547f87d1f27619a8215",
+      "sha256": "4c6179d2a33bc30ae71ffa786c7008db15d5771586f7921e865f4c89d8163b28",
       "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-07",
-      "sha256": "3c010d5c5d6cb612d680da127c0323a3146cb3448573370aa96dd2975f9855fa",
+      "sha256": "38abc476601164b30028bd16b895b36d333b0ff79e99080d8dab05881495913b",
       "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-08",
-      "sha256": "12c340e5d3c3c87962fdeca3d918c963d9fc219aa4d9e1216f87cedcf5050149",
+      "sha256": "d717d0c9c37174505084e92a1df24b8ff493bff77a861e2071fb85063d923488",
       "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-09",
-      "sha256": "b25de0320518a0bed22261f0ce270efdd2615067b2e37d184894d3e802ef9fa3",
+      "sha256": "5fb8ebdc2c7338fbf25d0c891c7f16d609bd502fd3b94495ed5b18cb54e033ee",
       "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-10",
-      "sha256": "bb09aedc45ce391190de9bf34785201f6cf9d372ad1aba16b019c88b197aef9a",
+      "sha256": "7704e75bd662fadb8ea41e0eee48ba87cda0f01faa7407e7f5007594d023b14c",
       "size_bytes": 700000
     },
     {
       "name": "candles.csv.gz.part-11",
-      "sha256": "b6ea1d6e81bbf597dbf791a222f90569f3e4b1e3e265e8dc35dfe7fe20f8b02c",
-      "size_bytes": 427269
+      "sha256": "53e4ec9ae55698d8f86b335590be35133c99fbf3d340774ccdc897aa3599722d",
+      "size_bytes": 700000
+    },
+    {
+      "name": "candles.csv.gz.part-12",
+      "sha256": "7be2bf85f2caeb199fb2a634d07bd2943be62501ceb4f6c3f804a8222e7dc8fa",
+      "size_bytes": 700000
+    },
+    {
+      "name": "candles.csv.gz.part-13",
+      "sha256": "85510d7b78dd0a51600a652df0f658a2387111b514d0a008b1e408d6b7242641",
+      "size_bytes": 700000
+    },
+    {
+      "name": "candles.csv.gz.part-14",
+      "sha256": "2be44e822917f0c17b3e52f4a78b996f697430bf0a7fcae7d505c0db4b4fd3e2",
+      "size_bytes": 700000
+    },
+    {
+      "name": "candles.csv.gz.part-15",
+      "sha256": "fb195b7bd9f0fe1a04389fcd4e69ac597ac3193d440ca8129900024fc7828e90",
+      "size_bytes": 258236
     }
   ],
   "format": "gzip CSV split into sequential byte chunks",
-  "generated_at_utc": "2026-11-15T21:06:39Z",
-  "note": "Public OHLC only. No client/account identity, trades, funding, credentials, or execution settings. Original records preserved. No conflicting overlapping candles. Source cache copies checked for byte-identical OHLC.",
+  "generated_at_utc": "2026-11-15T21:59:46Z",
+  "note": "Market-only public OHLC dataset; all old candles preserved. No trading/account identifiers, secrets, or execution settings. Native 2026-10-18 M1 00:00-01:26 is missing; native warehouse H1/H4 used for higher TF gaps. No synthetic bars.",
   "rejected_rows": 0,
-  "rows": 589124,
-  "source": "Original verified broker-native Deriv closed-candle archive merged with validated native MT5 2026 HCC cached M1 history, M5/M15/H1/H4/D1 aggregated from complete M1 days",
+  "rows": 780120,
+  "source": "Verified prior canonical Deriv OHLC plus 2026-10-14 to 2026-10-21 MT5 native 2026.hcc M1 backfill and independent native broker candle warehouse H1/H4",
   "time_utc_max": "2026-11-15T10:22:00Z",
-  "time_utc_min": "2026-07-25T00:00:00Z"
+  "time_utc_min": "2026-07-25T00:00:00Z",
+  "warmup_backfill": {
+    "30_bar_pre_entry_warmup_at_oct22_utc": {
+      "D1": {
+        "anchor_utc": "2026-10-22T00:00:00Z",
+        "symbols_with_30_contiguous_preceding_bars": 13
+      },
+      "H1": {
+        "anchor_utc": "2026-10-22T00:00:00Z",
+        "symbols_with_30_contiguous_preceding_bars": 13
+      },
+      "H4": {
+        "anchor_utc": "2026-10-22T00:00:00Z",
+        "symbols_with_30_contiguous_preceding_bars": 13
+      },
+      "M1": {
+        "anchor_utc": "2026-10-22T00:00:00Z",
+        "symbols_with_30_contiguous_preceding_bars": 13
+      },
+      "M15": {
+        "anchor_utc": "2026-10-22T00:00:00Z",
+        "symbols_with_30_contiguous_preceding_bars": 13
+      },
+      "M5": {
+        "anchor_utc": "2026-10-22T00:00:00Z",
+        "symbols_with_30_contiguous_preceding_bars": 13
+      }
+    },
+    "added_by_source_timeframe": {
+      "native_HCC:H1": 2470,
+      "native_HCC:H4": 247,
+      "native_HCC:M1": 148629,
+      "native_HCC:M15": 9906,
+      "native_HCC:M5": 29718,
+      "native_warehouse:H1": 26
+    },
+    "added_rows": 190996,
+    "earliest_per_timeframe_utc": {
+      "D1": "2026-07-25T00:00:00Z",
+      "H1": "2026-10-14T00:00:00Z",
+      "H4": "2026-10-14T00:00:00Z",
+      "M1": "2026-10-14T00:00:00Z",
+      "M15": "2026-10-14T00:00:00Z",
+      "M5": "2026-10-14T00:00:00Z"
+    },
+    "end_utc_exclusive": "2026-10-22T00:00:00Z",
+    "equal_overlaps": {
+      "native_HCC:D1": 91,
+      "native_HCC:H4": 364,
+      "native_warehouse:H1": 2158,
+      "native_warehouse:H4": 624
+    },
+    "hcc_source_digests": [
+      {
+        "days_validated": 8,
+        "hcc_2026_sha256": "81c2c6e56721b7b86391a9568d6385f52679c8a1192d08d7f7b81aaeb5cbef97",
+        "hcc_size_bytes": 36857247,
+        "minute_rows_validated": 11433,
+        "symbol": "Boom 1000 Index.0"
+      },
+      {
+        "days_validated": 8,
+        "hcc_2026_sha256": "3288e8ac5d0f19795a6daee1bf7413cbe63df5f273dd00e9f83a75440b9092cc",
+        "hcc_size_bytes": 36508491,
+        "minute_rows_validated": 11433,
+        "symbol": "Boom 150 Index.0"
+      },
+      {
+        "days_validated": 8,
+        "hcc_2026_sha256": "c51acad4ca60b6f401600dd85f6471461187705f693eabe56d16602a7ae1ec9c",
+        "hcc_size_bytes": 36776238,
+        "minute_rows_validated": 11433,
+        "symbol": "Boom 300 Index.0"
+      },
+      {
+        "days_validated": 8,
+        "hcc_2026_sha256": "76b47615c96a01669b5c6882677ef2188761852a264e77ea8e6f72c7db782f90",
+        "hcc_size_bytes": 36516471,
+        "minute_rows_validated": 11433,
+        "symbol": "Boom 600 Index.0"
+      },
+      {
+        "days_validated": 8,
+        "hcc_2026_sha256": "3604579d69a9b6daaabb75f44d495ab56506a0f015ea7d2ff927d162d2857dee",
+        "hcc_size_bytes": 36854427,
+        "minute_rows_validated": 11433,
+        "symbol": "Crash 1000 Index.0"
+      },
+      {
+        "days_validated": 8,
+        "hcc_2026_sha256": "5cb8eca4167b1bbd20100524e6f3852c1a2dc8d6c24b4778779ed00d951429c3",
+        "hcc_size_bytes": 36500091,
+        "minute_rows_validated": 11433,
+        "symbol": "Crash 150 Index.0"
+      },
+      {
+        "days_validated": 8,
+        "hcc_2026_sha256": "58a35e65832039a6e2e72810fd7f12bda1125bade355fe83aafb63d18e9234a6",
+        "hcc_size_bytes": 36346833,
+        "minute_rows_validated": 11433,
+        "symbol": "Crash 300 Index.0"
+      },
+      {
+        "days_validated": 8,
+        "hcc_2026_sha256": "5b8bc3b8321747476cf21b3049981b3cc406deaa0fbc650b0c0731f2deba37ee",
+        "hcc_size_bytes": 36508491,
+        "minute_rows_validated": 11433,
+        "symbol": "Crash 600 Index.0"
+      },
+      {
+        "days_validated": 8,
+        "hcc_2026_sha256": "483d8d581561f03839e6e75ac51ee975983f46b2f38f2de1e93226a15518d5f9",
+        "hcc_size_bytes": 36501291,
+        "minute_rows_validated": 11433,
+        "symbol": "Volatility 10 Index.0"
+      },
+      {
+        "days_validated": 8,
+        "hcc_2026_sha256": "7775c9ece7c87a8be090eb08cadd8921a1de670ed4085607e2101f6b6b423c7c",
+        "hcc_size_bytes": 36855627,
+        "minute_rows_validated": 11433,
+        "symbol": "Volatility 100 Index.0"
+      },
+      {
+        "days_validated": 8,
+        "hcc_2026_sha256": "371fb75fc1ee5f767f67640a643cefc6dc81f48ef531cef17559abf73fc677de",
+        "hcc_size_bytes": 36502491,
+        "minute_rows_validated": 11433,
+        "symbol": "Volatility 25 Index.0"
+      },
+      {
+        "days_validated": 8,
+        "hcc_2026_sha256": "efb5f5efbf0ec1ae75f57852608d3697efb05244691fb6e1bb780d143ba37edf",
+        "hcc_size_bytes": 36502491,
+        "minute_rows_validated": 11433,
+        "symbol": "Volatility 50 Index.0"
+      },
+      {
+        "days_validated": 8,
+        "hcc_2026_sha256": "1b044a0997e61964451f2ffe3d6f36e95ee358565138bb70cee15d333883ab9b",
+        "hcc_size_bytes": 62942112,
+        "minute_rows_validated": 11433,
+        "symbol": "Volatility 75 Index.0"
+      }
+    ],
+    "m1_gaps": [
+      {
+        "date": "2026-10-18",
+        "symbol": "Boom 1000 Index.0",
+        "unavailable_m1_count": 87,
+        "unavailable_utc_end_inclusive": "2026-10-18T01:26:00Z",
+        "unavailable_utc_start": "2026-10-18T00:00:00Z"
+      },
+      {
+        "date": "2026-10-18",
+        "symbol": "Boom 150 Index.0",
+        "unavailable_m1_count": 87,
+        "unavailable_utc_end_inclusive": "2026-10-18T01:26:00Z",
+        "unavailable_utc_start": "2026-10-18T00:00:00Z"
+      },
+      {
+        "date": "2026-10-18",
+        "symbol": "Boom 300 Index.0",
+        "unavailable_m1_count": 87,
+        "unavailable_utc_end_inclusive": "2026-10-18T01:26:00Z",
+        "unavailable_utc_start": "2026-10-18T00:00:00Z"
+      },
+      {
+        "date": "2026-10-18",
+        "symbol": "Boom 600 Index.0",
+        "unavailable_m1_count": 87,
+        "unavailable_utc_end_inclusive": "2026-10-18T01:26:00Z",
+        "unavailable_utc_start": "2026-10-18T00:00:00Z"
+      },
+      {
+        "date": "2026-10-18",
+        "symbol": "Crash 1000 Index.0",
+        "unavailable_m1_count": 87,
+        "unavailable_utc_end_inclusive": "2026-10-18T01:26:00Z",
+        "unavailable_utc_start": "2026-10-18T00:00:00Z"
+      },
+      {
+        "date": "2026-10-18",
+        "symbol": "Crash 150 Index.0",
+        "unavailable_m1_count": 87,
+        "unavailable_utc_end_inclusive": "2026-10-18T01:26:00Z",
+        "unavailable_utc_start": "2026-10-18T00:00:00Z"
+      },
+      {
+        "date": "2026-10-18",
+        "symbol": "Crash 300 Index.0",
+        "unavailable_m1_count": 87,
+        "unavailable_utc_end_inclusive": "2026-10-18T01:26:00Z",
+        "unavailable_utc_start": "2026-10-18T00:00:00Z"
+      },
+      {
+        "date": "2026-10-18",
+        "symbol": "Crash 600 Index.0",
+        "unavailable_m1_count": 87,
+        "unavailable_utc_end_inclusive": "2026-10-18T01:26:00Z",
+        "unavailable_utc_start": "2026-10-18T00:00:00Z"
+      },
+      {
+        "date": "2026-10-18",
+        "symbol": "Volatility 10 Index.0",
+        "unavailable_m1_count": 87,
+        "unavailable_utc_end_inclusive": "2026-10-18T01:26:00Z",
+        "unavailable_utc_start": "2026-10-18T00:00:00Z"
+      },
+      {
+        "date": "2026-10-18",
+        "symbol": "Volatility 100 Index.0",
+        "unavailable_m1_count": 87,
+        "unavailable_utc_end_inclusive": "2026-10-18T01:26:00Z",
+        "unavailable_utc_start": "2026-10-18T00:00:00Z"
+      },
+      {
+        "date": "2026-10-18",
+        "symbol": "Volatility 25 Index.0",
+        "unavailable_m1_count": 87,
+        "unavailable_utc_end_inclusive": "2026-10-18T01:26:00Z",
+        "unavailable_utc_start": "2026-10-18T00:00:00Z"
+      },
+      {
+        "date": "2026-10-18",
+        "symbol": "Volatility 50 Index.0",
+        "unavailable_m1_count": 87,
+        "unavailable_utc_end_inclusive": "2026-10-18T01:26:00Z",
+        "unavailable_utc_start": "2026-10-18T00:00:00Z"
+      },
+      {
+        "date": "2026-10-18",
+        "symbol": "Volatility 75 Index.0",
+        "unavailable_m1_count": 87,
+        "unavailable_utc_end_inclusive": "2026-10-18T01:26:00Z",
+        "unavailable_utc_start": "2026-10-18T00:00:00Z"
+      }
+    ],
+    "native_m1_minutes_checked": 148629,
+    "previous_canonical_sha256": "6f5c0e0a5289376bd49571e57346f4eb58a2f4538158cdb9f804ab1c93b66c42",
+    "previous_rows": 589124,
+    "rows_per_timeframe": {
+      "D1": 1469,
+      "H1": 10114,
+      "H4": 2522,
+      "M1": 604464,
+      "M15": 40391,
+      "M5": 121160
+    },
+    "source_conflicts": 0,
+    "start_utc": "2026-10-14T00:00:00Z",
+    "warehouse_h1_h4_rows_checked": 2808
+  }
 }

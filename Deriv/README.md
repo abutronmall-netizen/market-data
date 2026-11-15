@@ -1,7 +1,7 @@
 # Deriv OHLC history
 
-Broker-native OHLC data only. The canonical dataset is the concatenation of all ordered `candles.csv.gz.part-XX` chunks, decompressible as gzip CSV. Columns: `symbol,timeframe,start_time_utc,open,high,low,close`; timestamps are UTC Unix seconds.
+Reconstruct `candles.csv.gz` by concatenating the ordered `candles.csv.gz.part-XX` files, then decompress gzip. Columns: `symbol,timeframe,start_time_utc,open,high,low,close` (UTC Unix seconds).
 
-**2026-10-22 through 2026-11-02** was backfilled from complete and independently validated M1 records found in Deriv-Demo MT5 native HCC history caches. On November 2, the MT5 cache lacks seven minutes around 13:00 UTC; missing bars are not synthesized. M5, M15, H1, H4 and D1 candles were aggregated from those M1 bars and checked against overlapping original broker-native OHLC. Data before October 22 and after November 2 from the previous snapshot remain unchanged. This extends the early lower-timeframe training window, including October 24. A consuming trainer must replace its old cache and must not hardcode a November 2 start.
+**30-bar warmup fix:** 13 symbols have 30 consecutive, fully closed M1, M5, M15, H1, H4 and D1 bars preceding **2026-10-22 00:00:00 UTC**. Native MT5 Deriv history was backfilled from **2026-10-14 through 2026-10-21**; October 22 onward from the previous snapshot is unchanged. Previous backfill from Oct 22–Nov 2 is retained. An actual training pipeline must refresh its dataset and remove any hardcoded start-date filter.
 
-`MANIFEST.json` contains SHA-256 checksums, validation coverage and original snapshot digest. No customer identity or trading records are included.
+**Known source gap:** Native M1 for **2026-10-18 00:00–01:26 UTC** is not available. These missing minute bars and incomplete M5/M15 buckets were not fabricated. Genuine broker-native archived H1/H4 bars were included to preserve hourly context. Source hashes, overlaps and missing gaps are in `MANIFEST.json`. All client accounts, deals, credentials and execution state are excluded.
