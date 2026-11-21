@@ -1,0 +1,113 @@
+{
+  "generated_at_utc": "2026-11-21T07:37:11Z",
+  "broker": "Deriv",
+  "format": "gzip CSV; numbered byte parts where needed; append to existing published history; no private records",
+  "datasets": [
+    {
+      "broker": "Deriv",
+      "dataset": "candles",
+      "rows": 141730,
+      "columns": [
+        "symbol",
+        "timeframe",
+        "start_time_utc",
+        "open",
+        "high",
+        "low",
+        "close"
+      ],
+      "first_utc": "2026-11-15T10:23:00Z",
+      "last_utc": "2026-11-21T07:35:00Z",
+      "symbols": 13,
+      "gzip_sha256": "698db20ef6d0c5cd3b16249683f9650c8623ec05650ea8ff6f0d1cc417ecb1aa",
+      "files": [
+        {
+          "path": "Deriv/updates/2026-11-21/candles.csv.gz.part-00",
+          "bytes": 180000,
+          "sha256": "fe45ca92070998fd0a5af522f96875635767cd1d404694f1ed1969b1937b6e01",
+          "git_blob_sha": "252dbdd3d337c32ac799e0f1c7ec5bd6ba8885b2"
+        },
+        {
+          "path": "Deriv/updates/2026-11-21/candles.csv.gz.part-01",
+          "bytes": 180000,
+          "sha256": "c24f06bfc40e10d963c97da758654e9c5747db98c6e8bd4e6a9a50da65c5b905",
+          "git_blob_sha": "20ce725cc44068b3d41fa211bb1a7e22b41d3f52"
+        },
+        {
+          "path": "Deriv/updates/2026-11-21/candles.csv.gz.part-02",
+          "bytes": 180000,
+          "sha256": "a7183696ba4a6eb76de15153ce0720d64ac8ce026e1a6e89c2df95fe1f510330",
+          "git_blob_sha": "c543a6e59e4ecf9d991880a7267f41a7dea42744"
+        },
+        {
+          "path": "Deriv/updates/2026-11-21/candles.csv.gz.part-03",
+          "bytes": 180000,
+          "sha256": "15c259c88b2e58d1d0a239d7c78b8e1bcba87102a85376f36b825175ee096eb0",
+          "git_blob_sha": "6fc7ccdd573352f7fcb0f37f2860792e8c10f513"
+        },
+        {
+          "path": "Deriv/updates/2026-11-21/candles.csv.gz.part-04",
+          "bytes": 180000,
+          "sha256": "cdefae990d49e8d3c8e4b14f4aa87bd3477394bbc91603c7727a932d4629e214",
+          "git_blob_sha": "ac9055b42ad26b6a376ce6b33e7ed9d4cad192bf"
+        },
+        {
+          "path": "Deriv/updates/2026-11-21/candles.csv.gz.part-05",
+          "bytes": 180000,
+          "sha256": "c76db66d367763508aeb816472a80b65dea8e112d94dd51d06b2bc33c680bce6",
+          "git_blob_sha": "c1e19bd607fb24a9bb9effd1b75fb73a945a29e7"
+        },
+        {
+          "path": "Deriv/updates/2026-11-21/candles.csv.gz.part-06",
+          "bytes": 180000,
+          "sha256": "8947021e2dd0bd2f209112891a580947cdb6708cd000bcdbb735b6b49e1fa84e",
+          "git_blob_sha": "d2054efe01b85975f6212612d96a3d6cc016a7cb"
+        },
+        {
+          "path": "Deriv/updates/2026-11-21/candles.csv.gz.part-07",
+          "bytes": 180000,
+          "sha256": "8cfb9e6402a01723edc98d94a2ed7b91934cccdf9bb24e64dc65853d727bbebb",
+          "git_blob_sha": "9d34c3ca25d4a0a14ef5f18f735c80e5559eb2a1"
+        },
+        {
+          "path": "Deriv/updates/2026-11-21/candles.csv.gz.part-08",
+          "bytes": 180000,
+          "sha256": "5b94878615cc4bc4377a00b637befd305fd5fe64adae1fc01bab242ece5551c1",
+          "git_blob_sha": "a6541c98d14c83819246222b905b7c0da70d2b16"
+        },
+        {
+          "path": "Deriv/updates/2026-11-21/candles.csv.gz.part-09",
+          "bytes": 180000,
+          "sha256": "96ae75fa889afdd802c4d93cf426ca9d8e5e71adb44970b1e63aebf866930d88",
+          "git_blob_sha": "3b32a4b1357ef73af8f14e7aebf00555e395e496"
+        },
+        {
+          "path": "Deriv/updates/2026-11-21/candles.csv.gz.part-10",
+          "bytes": 180000,
+          "sha256": "793e1b5f702a38b76c62ecc82a9d29040549eef48a94110a0b2a1361ee9adcc2",
+          "git_blob_sha": "a86b8b2ff038f291899f347aa75a61a7bc8de79e"
+        },
+        {
+          "path": "Deriv/updates/2026-11-21/candles.csv.gz.part-11",
+          "bytes": 94,
+          "sha256": "899b0af3d44e404475da76e162352f4fab50c191346142109b96517ce359d90d",
+          "git_blob_sha": "5eb1f4aeb321fbf7988df11bbd58b563275d49ac"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Deriv uses archived closed candles after the prior published maximum. FP Markets uses native broker M5 archive plus complete current DEMO V305 exports. FP raw clock converted using verified +7200s offset. No stale quote represented as current. No account/login/fingerprint/trade records exported.",
+    "No missing bars fabricated; coverage reflects available sources."
+  ],
+  "sources": {
+    "Deriv_closed_archive": 141730,
+    "FP_native_M5_unique": 14086,
+    "FP_complete_DEMO_exports": 8
+  },
+  "conflicting_duplicate_keys_first_source_retained": {
+    "Deriv": 0,
+    "FP_candles": 0,
+    "FP_quotes": 0
+  }
+}

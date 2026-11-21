@@ -1,0 +1,80 @@
+{
+  "generated_at_utc": "2026-11-21T07:37:11Z",
+  "broker": "FP-Markets",
+  "format": "gzip CSV; numbered byte parts where needed; append to existing published history; no private records",
+  "datasets": [
+    {
+      "broker": "FP-Markets",
+      "dataset": "candles",
+      "rows": 17245,
+      "columns": [
+        "symbol",
+        "broker_symbol",
+        "timeframe",
+        "start_time_utc",
+        "open",
+        "high",
+        "low",
+        "close",
+        "broker_time_raw"
+      ],
+      "first_utc": "2026-11-15T22:00:00Z",
+      "last_utc": "2026-11-20T21:58:00Z",
+      "symbols": 13,
+      "gzip_sha256": "6949f10c14f30d121999a8f35b06d8fd7a68b0a213c75f5e52ad4126fa27209e",
+      "files": [
+        {
+          "path": "FP-Markets/updates/2026-11-21/candles.csv.gz.part-00",
+          "bytes": 180000,
+          "sha256": "cbfb8b83b7ca9bdb1c26a6a87db06319661f1df62ae7d4184a92dea1eb5bfd69",
+          "git_blob_sha": "21f7603a049f9bd7c745d5a139d1e9d600dbbafc"
+        },
+        {
+          "path": "FP-Markets/updates/2026-11-21/candles.csv.gz.part-01",
+          "bytes": 74810,
+          "sha256": "74a78f47ee3c7354d1040eff24e6944c9cb26bdf79309e62f1c76ef174f1e972",
+          "git_blob_sha": "0c9ee124c8ffaff12c6b92715f3f5c13ccea72ec"
+        }
+      ]
+    },
+    {
+      "broker": "FP-Markets",
+      "dataset": "quotes",
+      "rows": 13,
+      "columns": [
+        "symbol",
+        "broker_symbol",
+        "observed_utc",
+        "bid",
+        "ask",
+        "spread_price"
+      ],
+      "first_utc": "2026-11-20T20:59:59Z",
+      "last_utc": "2026-11-20T21:59:59Z",
+      "symbols": 13,
+      "gzip_sha256": "61d1140d20e54fdc49a1908128cef5f6946256ed4eb58a8f455306720e5b3c7a",
+      "files": [
+        {
+          "path": "FP-Markets/updates/2026-11-21/quotes.csv.gz",
+          "bytes": 347,
+          "sha256": "61d1140d20e54fdc49a1908128cef5f6946256ed4eb58a8f455306720e5b3c7a",
+          "git_blob_sha": "7f1c3838dfc1865b3a5f99300bc85245763c0503"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Deriv uses archived closed candles after the prior published maximum. FP Markets uses native broker M5 archive plus complete current DEMO V305 exports. FP raw clock converted using verified +7200s offset. No stale quote represented as current. No account/login/fingerprint/trade records exported.",
+    "No missing bars fabricated; coverage reflects available sources."
+  ],
+  "sources": {
+    "Deriv_closed_archive": 141730,
+    "FP_native_M5_unique": 14086,
+    "FP_complete_DEMO_exports": 8
+  },
+  "conflicting_duplicate_keys_first_source_retained": {
+    "Deriv": 0,
+    "FP_candles": 0,
+    "FP_quotes": 0
+  }
+}
